@@ -9,6 +9,11 @@ git clone --recursive https://github.com/davidhalter/jedi-vim.git ~/.vim/bundle/
 mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
 
+# Install vim-pydocstring
+```
+git clone --recursive https://github.com/heavenshell/vim-pydocstring.git ~/.vim/bundle/vim-pydocstring
+```
+
 # Copy vim themes and config
 ```
 cp -r colors ~/.vim/

@@ -16,7 +16,7 @@ set cc=80
 set smarttab
 set cindent
 
-autocmd FileType python set ts=4 et sw=4 autoindent
+autocmd FileType python set ts=4 et sw=4 softtabstop=4 expandtab autoindent
 autocmd FileType make set noet
 autocmd FileType php set noet ts=2 tw=1024
 "autocmd FileType php set et ts=8
@@ -29,5 +29,7 @@ noremap <Left> <NOP>
 noremap <Right> <NOP>
 
 map <F2> gqip
+map <silent> <F3> <Plug>(pydocstring)
+
 colorscheme coloridinho
 execute pathogen#infect()
