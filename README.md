@@ -14,6 +14,11 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vi
 git clone --recursive https://github.com/heavenshell/vim-pydocstring.git ~/.vim/bundle/vim-pydocstring
 ```
 
+# Install vim-autopep8
+```
+pip3 install  autopep8
+git clone --recursive https://github.com/tell-k/vim-autopep8.git ~/.vim/bundle
+```
 # Copy vim themes and config
 ```
 cp -r colors ~/.vim/

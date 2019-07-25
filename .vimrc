@@ -23,6 +23,8 @@ autocmd FileType php set noet ts=2 tw=1024
 autocmd BufNewFile,BufRead *.tex set nocindent
 autocmd BufNewFile,BufRead *.hx set nocindent autoindent
 
+autocmd FileType python noremap <buffer> <F8> :call Autopep8()<CR>
+
 noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
