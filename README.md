@@ -17,7 +17,7 @@ git clone --recursive https://github.com/heavenshell/vim-pydocstring.git ~/.vim/
 # Install vim-autopep8
 ```
 pip3 install  autopep8
-git clone --recursive https://github.com/tell-k/vim-autopep8.git ~/.vim/bundle
+git clone --recursive https://github.com/tell-k/vim-autopep8.git ~/.vim/bundle/vim-autopep8
 ```
 # Copy vim themes and config
 ```
