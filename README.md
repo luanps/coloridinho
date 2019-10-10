@@ -31,3 +31,11 @@ sudo apt-get install exuberant-ctags
 ctags -R --exclude=.git --exclude=Pip* --exclude=.direnv
 ```
 
+#Install vim portuguese language spell check
+```
+mkdir ~/.vim/spell
+cd ~/.vim/spell
+wget https://extensions.libreoffice.org/extensions/vero-verificador-ortografico-e-hifenizador-em-portugues-do-brasil/3.2/@@download/file/VeroptBRV320AOC.oxt
+unzip *
+enter vim and insert :mkspell pt pt_BR
+```

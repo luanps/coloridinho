@@ -32,6 +32,7 @@ noremap <Right> <NOP>
 
 map <F2> gqip
 map <silent> <F3> <Plug>(pydocstring)
+map <F4> :set spell spelllang=pt
 
 colorscheme coloridinho
 execute pathogen#infect()
