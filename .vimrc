@@ -33,6 +33,8 @@ noremap <Right> <NOP>
 map <F2> gqip
 map <silent> <F3> <Plug>(pydocstring)
 map <F4> :set spell spelllang=pt
+map <F5> :%!python -m json.tool
 
 colorscheme coloridinho
+
 execute pathogen#infect()
