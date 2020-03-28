@@ -19,6 +19,13 @@ git clone --recursive https://github.com/heavenshell/vim-pydocstring.git ~/.vim/
 pip3 install  autopep8
 git clone --recursive https://github.com/tell-k/vim-autopep8.git ~/.vim/bundle/vim-autopep8
 ```
+
+# Install emmet-vim
+```
+git clone https://github.com/mattn/emmet-vim.git ~/.vim/bundle/emmet-vim
+```
+
+
 # Copy vim themes and config
 ```
 cp -r colors ~/.vim/
