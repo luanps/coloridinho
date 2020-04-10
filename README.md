@@ -38,7 +38,7 @@ sudo apt-get install exuberant-ctags
 ctags -R --exclude=.git --exclude=Pip* --exclude=.direnv
 ```
 
-#Install vim portuguese language spell check
+# Install vim portuguese language spell check
 ```
 mkdir ~/.vim/spell
 cd ~/.vim/spell
